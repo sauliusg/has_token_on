@@ -77,7 +77,7 @@ Options are as follows:
 * :on - generates token on certain time: :initialize, :create (default), :update.
 
     ```ruby
-    has_token_on :slug, :on => :initialize
+    has_token_on :slug, :on => [:initialize]
     ```
 
 * :seed - elements or functions that are used to generate hash. Options:
